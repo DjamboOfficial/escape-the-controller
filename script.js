@@ -22,6 +22,12 @@ window.onload = function () {
     .addEventListener("click", function () {
       restartGame();
     });
+  const wonRestart = document.getElementById("victory-restart");
+  document
+    .getElementById("victory-restart")
+    .addEventListener("click", function () {
+      restartGame();
+    });
 
   function startGame() {
     console.log("Start!");
